@@ -20,7 +20,7 @@ void main() {
           soma += i;
         }
       }
-      print("Soma dos valores divisíveis por 3 ou 5: " + soma.toString());
+      print("Soma dos valores divisiveis por 3 ou 5: " + soma.toString());
     } catch(e) {
       print("Por favor, insira um valor correto.");
     }
