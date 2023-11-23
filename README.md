@@ -33,3 +33,35 @@ void main() {
 1. Acesse o compilador Dart em [Online Dart Compiler](https://www.adaface.com/online-compiler/online-dart-compiler).
 2. Copie e cole código no compilador.
 3. Clique em "Run".
+
+## Instruções para executar o código em Javascript
+
+```javascript
+var soma = 0;
+var valido = false;
+    
+    while(!valido) {
+        num = prompt("Digite um número: ");
+        
+        if(isNaN(num) || num.trim() === ""){
+            console.log("Digite um número válido");
+        }else {
+            valido = true;
+        }
+    }
+    
+    num = parseInt(num);
+    
+    for(i = 1;i < num;i++){
+    
+        if((i % 5 == 0) || (i % 3 == 0)){
+            soma += i;
+        }
+    }
+    
+    console.log("A soma dos números divisiveís por 5 ou 3 é de: " + soma);
+```
+
+1. Acesse o compilador Javascript em [Programiz](https://www.programiz.com/javascript/online-compiler/#google_vignette).
+2. Copie e cole código no compilador.
+3. Clique em "Run".
